@@ -1,0 +1,18 @@
+{
+  "machineName" : "",
+  "nodeName" : "CONSOLE_TEST",
+  "appName" : "TEST",
+  "appVersion" : "02.01.01",
+  "userName" : "JFO",
+  "comment" : "Agent de test de Nexai",
+  "dataServers": [
+    {
+      "dbType" : "ElasticSearch",
+      "userName" : "",
+      "password" : "",
+      "connString" : "http://localhost:9200",
+      "prefix": "default",
+      "layer" :  "admin"
+    }
+  ]  
+}

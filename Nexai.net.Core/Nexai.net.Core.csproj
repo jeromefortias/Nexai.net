@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <BaseOutputPath>D:\Nexai.net\lib\Core</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Models\" />
+    <Folder Include="Common\Resources\" />
+    <Folder Include="Config\Interfaces\" />
+    <Folder Include="Config\Documentation\" />
+    <Folder Include="Config\Resources\" />
+    <Folder Include="Console\Helpers\" />
+    <Folder Include="Console\Models\" />
+    <Folder Include="Console\Documentation\" />
+    <Folder Include="Console\Resources\" />
+    <Folder Include="Data\Helpers\" />
+    <Folder Include="Data\Documentation\" />
+    <Folder Include="Data\Resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NEST" Version="7.17.5" />
+  </ItemGroup>
+
+</Project>
