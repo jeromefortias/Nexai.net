@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	<BaseOutputPath>..\..\..\..\Apps\lib\Core</BaseOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Builders\**" />
+    <Compile Remove="Data\**" />
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Builders\**" />
+    <EmbeddedResource Remove="Data\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Builders\**" />
+    <None Remove="Data\**" />
+    <None Remove="Properties\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Elasticsearch.Net" />
+    <PackageReference Include="NEST" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Musuko.Framework.DataModels\Musuko.Framework.DataModels.csproj" />
+    <ProjectReference Include="..\Musuko.Framework.Data\Musuko.Framework.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Images\Kaonashi.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

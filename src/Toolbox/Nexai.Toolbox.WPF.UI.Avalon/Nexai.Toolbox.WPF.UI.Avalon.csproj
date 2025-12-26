@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="..\..\..\SharedFrameworkAssmblyInfo.props" />
+
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<IsPackable>true</IsPackable>
+		<Description>ToolBox that contains extention for WPF dev. UI Part linked to Avalon View dependency</Description>
+		<PackageTags>toolbox;dotnet;helpers;configurations;WPF</PackageTags>
+	</PropertyGroup>
+</Project>

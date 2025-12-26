@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\..\SharedFrameworkAssmblyInfo.props" />
+	<Import Project="..\..\..\SharedFrameworkDemocriteAssemblyInfo.props" />
+
+	<PropertyGroup>
+		
+		<IsPackable>true</IsPackable>
+		<Description>Democrite library use to build definitions Sequence, Signal, Trigger ...</Description>
+
+		<PackageTags>Democrite;Orleans;Multi-VGrain;Multi-Grain;Multi-Agent;Framework;Definition</PackageTags>
+		
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Democrite.Framework.Core.Abstractions\Democrite.Framework.Core.Abstractions.csproj" />
+	  <ProjectReference Include="..\Democrite.Framework.Core\Democrite.Framework.Core.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="Democrite.Framework.Builders.UnitTests" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Resources\BuildErrorSR.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>BuildErrorSR.resx</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Resources\BuildErrorSR.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>BuildErrorSR.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+</Project>
