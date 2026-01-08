@@ -125,8 +125,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nexai.Toolbox.Configuration
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servers", "Servers", "{EA611206-67B7-4490-9CBC-085BC61C596B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{040E688B-06B8-4198-89B2-DD2343906CF3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musuko.Framework.DataModels", "src\Frameworks\Musuko.Framework.DataModels\Musuko.Framework.DataModels.csproj", "{DD932C7C-F6C8-32A0-021E-7F01796205C8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musuko.Framework.Data", "src\Frameworks\Musuko.Framework.Data\Musuko.Framework.Data.csproj", "{8A37B632-5AC1-F7F8-E692-ECD843E0FB0E}"
@@ -135,7 +133,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musuko.Framework.Core", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musuko.Server.Dialog", "src\Servers\Musuko.Server.Dialog\Musuko.Server.Dialog.csproj", "{2E971E83-A758-1480-D438-9792EBD51108}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musuko.Client.Kaonashi", "src\Clients\Musuko.Client.Kaonashi\Musuko.Client.Kaonashi.csproj", "{B060DBCD-4EE9-D7B6-E894-F4A3CDCD39A8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Agents", "Agents", "{CD3189E7-8F03-40B7-ABD1-E7CF4AAEB57A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,10 +325,6 @@ Global
 		{2E971E83-A758-1480-D438-9792EBD51108}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E971E83-A758-1480-D438-9792EBD51108}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E971E83-A758-1480-D438-9792EBD51108}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B060DBCD-4EE9-D7B6-E894-F4A3CDCD39A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B060DBCD-4EE9-D7B6-E894-F4A3CDCD39A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B060DBCD-4EE9-D7B6-E894-F4A3CDCD39A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B060DBCD-4EE9-D7B6-E894-F4A3CDCD39A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -385,7 +379,6 @@ Global
 		{8A37B632-5AC1-F7F8-E692-ECD843E0FB0E} = {6BF28FB3-9FA0-4A68-A66F-B7701CD93C69}
 		{29A60FED-38D3-0B7C-71CE-657474856BB2} = {6BF28FB3-9FA0-4A68-A66F-B7701CD93C69}
 		{2E971E83-A758-1480-D438-9792EBD51108} = {EA611206-67B7-4490-9CBC-085BC61C596B}
-		{B060DBCD-4EE9-D7B6-E894-F4A3CDCD39A8} = {040E688B-06B8-4198-89B2-DD2343906CF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89BCBB25-4DD3-406C-91A9-BB2F978C23F2}
